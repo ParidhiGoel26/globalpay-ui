@@ -90,7 +90,7 @@ globalpay-ui/
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/your-username/globalpay-ui.git
+git clone https://github.com/ParidhiGoel26/globalpay-ui.git
 cd globalpay-ui
 
 # 2. Install dependencies
@@ -101,4 +101,8 @@ npm run dev
 
 App runs on http://localhost:3000
 
+## 🙌 Contribution
+Each intern will be assigned a specific folder. Submit your progress via Pull Requests to the main branch.
 
+## 📄 License
+All rights reserved by Sentienta QualityAI. This project is part of an internal research initiative. Do not redistribute without permission.
