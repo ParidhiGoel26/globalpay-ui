@@ -95,6 +95,7 @@ cd globalpay-ui
 
 # 2. Install dependencies
 npm install
+npm install lucide-react
 
 # 3. Run the development server
 npm run dev
