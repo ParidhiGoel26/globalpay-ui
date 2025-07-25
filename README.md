@@ -104,9 +104,9 @@ npm run dev
 App runs on http://localhost:3000
 
 ## 🙌 Contribution
-1) Harshita
-- 2) Paridhi
--3)Ojaswee
+- Harshita
+- Paridhi
+- Ojaswee
 -Each intern will be assigned a specific folder. Submit your progress via Pull Requests to the main branch.
 
 ## 📄 License
