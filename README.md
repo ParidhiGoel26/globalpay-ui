@@ -104,8 +104,10 @@ npm run dev
 App runs on http://localhost:3000
 
 ## 🙌 Contribution
-1) Harshita        2)Paridhi          3)Ojaswee
-Each intern will be assigned a specific folder. Submit your progress via Pull Requests to the main branch.
+1) Harshita
+-2) Paridhi
+-3)Ojaswee
+-Each intern will be assigned a specific folder. Submit your progress via Pull Requests to the main branch.
 
 ## 📄 License
 All rights reserved by Sentienta QualityAI. This project is part of an internal research initiative. Do not redistribute without permission.
