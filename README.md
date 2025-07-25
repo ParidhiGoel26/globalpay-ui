@@ -107,7 +107,7 @@ App runs on http://localhost:3000
 - Harshita
 - Paridhi
 - Ojaswee
--Each intern will be assigned a specific folder. Submit your progress via Pull Requests to the main branch.
+- Each intern will be assigned a specific folder. Submit your progress via Pull Requests to the main branch.
 
 ## 📄 License
 All rights reserved by Sentienta QualityAI. This project is part of an internal research initiative. Do not redistribute without permission.
