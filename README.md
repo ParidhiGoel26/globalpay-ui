@@ -85,26 +85,7 @@ globalpay-ui/
 └── next.config.js
 
 ```
-- **Backend**
-```
-globalpay-backend/
-├── server.js                   # Entry point for Express app
-├── routes/
-│   ├── biometric.js
-│   ├── wallet.js
-│   └── payment.js
-├── controllers/
-│   ├── biometricController.js
-│   ├── walletController.js
-│   └── paymentController.js
-├── data/
-│   └── mockData.js            # Simulated data (balances, users)
-├── middleware/
-│   └── logger.js              # Logs requests (optional)
-├── .gitignore
-├── package.json
-└── README.md
-```
+
 ## 📦 Getting Started
 
 ```bash
@@ -118,9 +99,8 @@ npm install
 # 3. Run the development server
 npm run dev
 
-App runs on http://localhost:3000
-
 ```
+App runs on http://localhost:3000
 
 ## 🙌 Contribution
 Each intern will be assigned a specific folder. Submit your progress via Pull Requests to the main branch.
