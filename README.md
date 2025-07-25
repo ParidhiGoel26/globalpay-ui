@@ -29,7 +29,7 @@ A modern and secure frontend prototype for a biometric/Aadhaar-based digital pay
 ## 🧩 Folder Structure
 - **Frontend**
 ```
-globalpay-ui/frontend
+globalpay-ui/
 ├── app/
 │   ├── layout.jsx               # Root layout with dark/light support, fonts, meta
 │   ├── globals.css              # Tailwind + custom styles
