@@ -101,6 +101,8 @@ npm run dev
 
 App runs on http://localhost:3000
 
+```bash
+
 ## 🙌 Contribution
 Each intern will be assigned a specific folder. Submit your progress via Pull Requests to the main branch.
 
