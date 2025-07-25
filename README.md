@@ -85,7 +85,26 @@ globalpay-ui/frontend
 └── next.config.js
 
 ```
-
+- **Backend**
+```
+globalpay-backend/
+├── server.js                   # Entry point for Express app
+├── routes/
+│   ├── biometric.js
+│   ├── wallet.js
+│   └── payment.js
+├── controllers/
+│   ├── biometricController.js
+│   ├── walletController.js
+│   └── paymentController.js
+├── data/
+│   └── mockData.js            # Simulated data (balances, users)
+├── middleware/
+│   └── logger.js              # Logs requests (optional)
+├── .gitignore
+├── package.json
+└── README.md
+```
 ## 📦 Getting Started
 
 ```bash
