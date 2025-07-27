@@ -97,6 +97,7 @@ npm install lucide-react
 npm run dev
 ```
 App runs on http://localhost:3000
+
 ## 📄 Pages
 1. page.jsx (Landing Page)
 
@@ -137,6 +138,23 @@ Includes:
 Name, Email, Message
 ContactForm.jsx component
 SocialLinks.jsx at the bottom
+## 👥 Page Ownership and Component Mapping
+
+| Name      | Pages Assigned                                      | Components Used                                                                                  |
+|-----------|-----------------------------------------------------|--------------------------------------------------------------------------------------------------|
+| **Paridhi** | `/page.jsx` (Homepage)<br>`/onboarding/page.jsx`<br>`/payment/page.jsx` | `Navbar.jsx`, `Footer.jsx`,<br>`AadhaarForm.jsx`, `BiometricPrompt.jsx`                         |
+| **Harshita** | `/merchant/page.jsx`<br>`/offline-sync/page.jsx`     | `WalletCard.jsx`, `TransactionHistory.jsx`, `SyncStatusBanner.jsx` |
+| **Ojaswee** | `/wallet/page.jsx`<br>`/kiosk/page.jsx`              | `WalletCard.jsx`, `TransactionHistory.jsx`, `BiometricPrompt.jsx`  |
+
+---
+
+### 📦 API Endpoints (Handled by Harshita)
+
+| Route                        | Description                             |
+|-----------------------------|-----------------------------------------|
+| `/api/verify-biometric`     | Simulate biometric/Aadhaar validation   |
+| `/api/fetch-balance`        | Fetch wallet balance                    |
+| `/api/sync-wallet`          | Sync offline data to cloud              |
 
 ## 🙌 Contribution
 Each intern will be assigned a specific folder. Submit your progress via Pull Requests to the main branch.
