@@ -102,14 +102,12 @@ npm run dev
 Purpose: Welcome screen for GlobalPay.
 
 2. solutions /Page.jsx
+   
 Purpose: Describe different payment solutions GlobalPay offers.
 
 Example Content:
-
 Offline biometric payments
-
 Aadhaar authentication use-cases
-
 QR & UPI integration
 
 3. technology /Page.jsx
@@ -117,11 +115,8 @@ QR & UPI integration
 Purpose: Showcase tech stack and security of GlobalPay.
 
 Example Content:
-
 Device compatibility
-
 Encryption techniques
-
 Server-side logic (overview)
 
 4. about/ Page.jsx
@@ -129,22 +124,17 @@ Server-side logic (overview)
 Purpose: Introduce the mission, vision, and team behind GlobalPay.
 
 Sections May Include:
-
 Our Mission
-
 Why GlobalPay
-
 Meet the Team (uses TeamSection.jsx)
+
 5. contact /Page.jsx
 
 Purpose: Contact form to collect feedback or queries.
 
 Includes:
-
 Name, Email, Message
-
 ContactForm.jsx component
-
 SocialLinks.jsx at the bottom
 
 ## 🙌 Contribution
