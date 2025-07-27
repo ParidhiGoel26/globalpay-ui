@@ -86,7 +86,7 @@ globalpay-ui/
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/your-username/globalpay-ui.git
+git clone https://github.com/ParidhiGoel26/globalpay-ui.git
 cd globalpay-ui
 
 # 2. Install dependencies
@@ -96,6 +96,7 @@ npm install lucide-react
 # 3. Run the development server
 npm run dev
 ```
+App runs on http://localhost:3000
 ## 📄 Pages
 1. page.jsx (Landing Page)
 
