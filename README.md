@@ -20,7 +20,7 @@ A modern and secure frontend prototype for a biometric/Aadhaar-based digital pay
 
 - **Framework:** [Next.js](https://nextjs.org/)
 - **Styling:** [Tailwind CSS](https://tailwindcss.com/)
-- **UI Design:** Figma (prototypes)
+- **UI Design:** Figma (prototypes) [Figma file](https://www.figma.com/design/gMTiwBvGMVQGknEmh2Rqqk/Untitled?node-id=0-1&t=YlERYanpaXjQbPX3-1)
 - **Mock Backend:** Next.js API routes
 
 ---
@@ -91,41 +91,64 @@ cd globalpay-ui
 
 # 2. Install dependencies
 npm install
+npm install lucide-react
 
 # 3. Run the development server
 npm run dev
 ```
-## Getting Started
+## 📄 Pages
+1. page.jsx (Landing Page)
 
-First, run the development server:
+Purpose: Welcome screen for GlobalPay.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+2. solutions /Page.jsx
+Purpose: Describe different payment solutions GlobalPay offers.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Example Content:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Offline biometric payments
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Aadhaar authentication use-cases
 
-## Learn More
+QR & UPI integration
 
-To learn more about Next.js, take a look at the following resources:
+3. technology /Page.jsx
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Purpose: Showcase tech stack and security of GlobalPay.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Example Content:
 
-## Deploy on Vercel
+Device compatibility
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Encryption techniques
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Server-side logic (overview)
+
+4. about/ Page.jsx
+
+Purpose: Introduce the mission, vision, and team behind GlobalPay.
+
+Sections May Include:
+
+Our Mission
+
+Why GlobalPay
+
+Meet the Team (uses TeamSection.jsx)
+5. contact /Page.jsx
+
+Purpose: Contact form to collect feedback or queries.
+
+Includes:
+
+Name, Email, Message
+
+ContactForm.jsx component
+
+SocialLinks.jsx at the bottom
+
+## 🙌 Contribution
+Each intern will be assigned a specific folder. Submit your progress via Pull Requests to the main branch.
+
+## 📄 License
+All rights reserved by Sentienta QualityAI. This project is part of an internal research initiative. Do not redistribute without permission.
