@@ -92,6 +92,7 @@ cd globalpay-ui
 # 2. Install dependencies
 npm install
 npm install lucide-react
+npm install framer-motion
 
 # 3. Run the development server
 npm run dev
