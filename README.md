@@ -143,7 +143,7 @@ SocialLinks.jsx at the bottom
 | Name      | Pages Assigned                                      | Components Used                                                                                  |
 |-----------|-----------------------------------------------------|--------------------------------------------------------------------------------------------------|
 | **Paridhi** | `/page.jsx` (Homepage)<br>`/onboarding/page.jsx`<br>`/payment/page.jsx` | `Navbar.jsx`, `Footer.jsx`,<br>`AadhaarForm.jsx`, `BiometricPrompt.jsx`                         |
-| **Harshita** | <br>`/offline-sync/page.jsx`     |  `SyncStatusBanner.jsx` |
+| **Harshita** | <br>`/offline-sync/page.jsx`<br> `Dark and light theme`   |  `SyncStatusBanner.jsx` |
 | **Ojaswee** | `/wallet/page.jsx`<br>`/kiosk/page.jsx` <br> `/merchant/page.jsx/ `      | `WalletCard.jsx`, `TransactionHistory.jsx`, `BiometricPrompt.jsx`  |
 
 ---
