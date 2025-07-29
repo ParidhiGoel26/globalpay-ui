@@ -1,15 +1,16 @@
+"use client";
 import { motion } from "framer-motion";
 
-export default function WalletCard({ balance = "₹12,450", name = "Ojaswee" }) {
+export default function WalletCard({ balance = "₹0", name = "User" }) {
   return (
     <motion.div
-      className="bg-gradient-to-br from-green-500 to-emerald-600 text-white p-6 rounded-2xl shadow-lg w-full max-w-md"
+      className="mx-auto max-w-md bg-gradient-to-br from-purple-400 to-purple-200 text-white p-8 rounded-xl shadow-xl"
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6 }}
     >
-      <div className="text-lg mb-1">Wallet Balance</div>
-      <div className="text-3xl font-bold">{balance}</div>
+      <div className="text-lg">Wallet Balance</div>
+      <div className="text-4xl font-bold mt-2">{balance}</div>
       <div className="mt-4 text-sm">Holder: {name}</div>
     </motion.div>
   );
