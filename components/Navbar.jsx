@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { useState } from 'react';
 import Image from 'next/image';
 import { Menu, X } from 'lucide-react';
+import ThemeToggle from './ThemeToggle';
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -27,38 +28,50 @@ export default function Navbar() {
           </Link>
 
           {/* Desktop Nav */}
-          <nav className="hidden md:flex space-x-6 text-gray-700 dark:text-gray-200 font-medium">
-            {navLinks.map(({ label, href }) => (
-              <Link key={href} href={href} className="hover:text-purple-600 dark:hover:text-purple-400">
-                {label}
-              </Link>
-            ))}
-          </nav>
-
-          {/* Mobile Menu Icon */}
-          <div className="md:hidden">
-            <button onClick={() => setMenuOpen(!menuOpen)}>
-              {menuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
-            </button>
-          </div>
-        </div>
-
-        {/* Mobile Menu */}
-        {menuOpen && (
-          <nav className="md:hidden flex flex-col space-y-2 pb-4 text-gray-800 dark:text-gray-100">
+          <div className="hidden md:flex items-center space-x-6 text-gray-700 dark:text-gray-200 font-medium">
             {navLinks.map(({ label, href }) => (
               <Link
                 key={href}
                 href={href}
-                onClick={() => setMenuOpen(false)}
-                className="hover:text-purple-600 dark:hover:text-purple-400"
+                className="hover:text-purple-600 dark:hover:text-purple-400 px-3 py-2 rounded-full transition"
               >
                 {label}
               </Link>
             ))}
-          </nav>
-        )}
+
+            {/* Theme Toggle Button */}
+            <ThemeToggle />
+          </div>
+
+          {/* Mobile Menu Icon */}
+          <div className="md:hidden">
+            <button onClick={() => setMenuOpen(!menuOpen)} aria-label="Toggle menu">
+              {menuOpen ? <X className="w-6 h-6 text-gray-800 dark:text-gray-100" /> : <Menu className="w-6 h-6 text-gray-800 dark:text-gray-100" />}
+            </button>
+          </div>
+        </div>
       </div>
+
+      {/* Mobile Menu */}
+      {menuOpen && (
+        <nav className="md:hidden bg-white dark:bg-black border-t border-gray-200 dark:border-gray-700 px-4 pb-4 space-y-2">
+          {navLinks.map(({ label, href }) => (
+            <Link
+              key={href}
+              href={href}
+              onClick={() => setMenuOpen(false)}
+              className="block py-2 text-sm font-medium text-gray-800 dark:text-gray-200 hover:text-purple-600 dark:hover:text-purple-400"
+            >
+              {label}
+            </Link>
+          ))}
+
+          {/* Theme Toggle in Mobile View */}
+          <div className="pt-2">
+            <ThemeToggle />
+          </div>
+        </nav>
+      )}
     </header>
   );
 }

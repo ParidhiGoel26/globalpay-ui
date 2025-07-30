@@ -6,19 +6,19 @@ const solutions = [
     title: 'Offline Biometric Payments',
     desc: 'Enable secure offline transactions in rural or low-connectivity areas using fingerprint-based biometric devices. Perfect for micro-merchants and government schemes requiring instant identity verification without internet.',
     img: '/offline-payments.jpg',
-    href: '#',
+    href: '/offline-sync',
   },
   {
     title: 'Aadhaar Authentication',
     desc: 'Leverage UIDAI APIs to perform real-time Aadhaar-based identity checks for seamless onboarding, KYC, and fraud prevention across various financial and e-governance platforms.',
     img: '/aadhaar-auth.jpg',
-    href: '#',
+    href: '/onboarding',
   },
   {
     title: 'QR/UPI',
     desc: 'Accept payments via Bharat QR or UPI with a single scan. Our platform ensures fast, secure, and interoperable transactions with minimal effort for customers and merchants alike.',
     img: '/qr-upi.jpg',
-    href: '#',
+    href: '/payments',
   },
 ];
 
